@@ -1,0 +1,17 @@
+body {
+    background-color:  rgb(245, 150, 26);;
+}
+header{
+    background-color: rgb(26, 245, 26);
+}
+footer{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 150px;
+    height: 180px;
+}
+#container1{
+    text-align: center;
+}
