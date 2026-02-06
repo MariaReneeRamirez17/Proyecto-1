@@ -1,17 +1,31 @@
 body {
-    background-color:  rgb(245, 150, 26);;
+    background-image: url(imagenes/colores.jpg);
 }
 header{
-    background-color: rgb(26, 245, 26);
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    font: bold 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer{
     background-color: black;
     color: white;
 }
 img{
-    width: 150px;
-    height: 180px;
+    width: 300px;
+    height: 400px;
+   border: 6px solid rgb(235, 221, 17);
 }
-#container1{
-    text-align: center;
+
+p {
+    color: white;
+    background-color: black;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Alinear_Flex{
+justify-content: center;
+display: flex;
 }
